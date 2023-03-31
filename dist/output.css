@@ -1205,14 +1205,14 @@ body {
   border-color: rgb(81 233 239 / var(--tw-border-opacity));
 }
 
-.hover\:bg-primary:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(81 233 239 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-darkGray:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(115 115 115 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-primary:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(81 233 239 / var(--tw-bg-opacity));
 }
 
 .hover\:py-4:hover {
