@@ -78,6 +78,42 @@
     overflow: hidden;
  }
 
+ .theFigure .item:nth-child(1){
+   @apply absolute left-[50%] -bottom-[12px] -translate-x-[120%]  -translate-y-0
+}
+
+.theFigure .item:nth-child(2){
+   @apply absolute left-[50%] -bottom-0 -translate-x-[45%] -translate-y-0
+}
+
+.theFigure .item:nth-child(3){
+   @apply absolute left-[50%] -bottom-[17px] translate-x-[38%] -translate-y-0
+}
+
+
+.portraitItem{
+   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.portraitItem.active {
+   @apply w-[700px] transition-all duration-500
+}
+
+.portraitItem-name .theName{
+   transform: rotate(-90deg);
+   margin-top: 10rem;
+   width: 11rem;
+   @apply mx-auto
+}
+
+.portraitItem.active .portraitItem-name .theName {
+   transform: rotate(0);
+   margin-top: 0;
+}
+
+.portraitItem.active .portraitItem-name .desc {
+   @apply block
+}
 
 
 
